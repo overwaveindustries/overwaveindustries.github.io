@@ -40,26 +40,30 @@ export default function Home() {
           <ul>
             {/* WE ARE OVERWAVE */}
             <li> 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZbYRnI6Qs" title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZbYRnI6Qs" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
               </iframe>
             </li>
 
             <li>
               {/* "WHAT DO YOU KNOW SO FAR?" */}
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/e8H_8as12Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/e8H_8as12Os" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+              </iframe>
             </li>
 
             <li>
               {/* DYNASTY */}
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/gFXGHhC0Uio" title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gFXGHhC0Uio" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
               </iframe>
             </li>
 
             <li>
               {/* FAVORITE MISTAKES */}
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/vr1hnqVOG_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vr1hnqVOG_I" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+              </iframe>
             </li>
 
           </ul>
@@ -75,11 +79,11 @@ export default function Home() {
           <nav>
             {/* <h1>overwave industries</h1> */}
             <ul>
-              <li><a href="//soundcloud.com">soundcloud</a></li>
-              <li><a target="_blank" href="//www.youtube.com/channel/UCFOsmRxAZ9P94fIm9-Ke9lg">youtube</a></li>
+              <li><a target="_blank" rel="noreferrer" href="//soundcloud.com/mannyalone">soundcloud</a></li>
+              <li><a target="_blank" rel="noreferrer" href="//www.youtube.com/channel/UCFOsmRxAZ9P94fIm9-Ke9lg">youtube</a></li>
             </ul>
             <ul>
-              <li><a href="//twitch.com">twitch</a></li>
+              <li><a target="_blank" rel="noreferrer" href="//www.twitch.tv/mannyhyuga_">twitch</a></li>
               <li><Link href="/about">about us</Link></li>
             </ul>
             <ul>
