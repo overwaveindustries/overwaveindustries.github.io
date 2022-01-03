@@ -14,15 +14,38 @@
   object-fit: cover;
 }
 
+.videoBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .videoBackground video {
   position: fixed;
   top:0; left:0;
   object-fit: fill;
 }
 
-.everythingElse {
+.page {
+  display: flex;
   z-index: 99;
+  width: 560px;
   position: absolute;
+  top: 80%;
+}
+
+.page ul {
+  list-style-type: none;
+  vertical-align: bottom;
+}
+
+.page iframe {
+  margin-top: 50px;
+}
+
+.everythingElse {
+  z-index: 95;
+  position: fixed;
   height: 100%;
   width: 100%;
   top: 0;
@@ -31,9 +54,13 @@
 }
 
 .everythingElse nav {
+  width: 100%;
   display: flex;
   align-self: flex-end;
-  padding: 10px 5%;
+  padding: 0px 5%;
+
+  color: white;
+  background-color: #576eee;
 }
 
 .everythingElse nav h1 {
@@ -41,6 +68,7 @@
 }
 
 .everythingElse nav ul {
+  margin: 8px;
   list-style-type: none;
   vertical-align: bottom;
 }
