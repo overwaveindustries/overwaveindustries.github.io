@@ -68,11 +68,8 @@ export default function Home() {
 
           </ul>
 
-          
-
-
-
         </div>
+        
 
         <div className={styles.everythingElse}>
 
