@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- get rid of empty scrollable space vertical/horizontal by Chrome -->
+    <style>body {
+  cursor: grab;
+  background-color: #fff;
+  margin: 0;
+}
+
+body:active {
+  cursor: grabbing;
+}
+
+.ui {
+  position: absolute;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  cursor: not-allowed;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  size: 250px;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  inset: 0;
+}
+
+</style>
+</head>
+<body>
+    <script src="/index.8764ec8d.js" defer=""></script>
+
+    <div class="video-container">
+        <video autoplay="" muted="" width="100%" height="100%" class="video" id="introvideo">
+            <source src="/overwave-intro-falling.66bbb843.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video> 
+    </div>
+
+    <!-- <div class="ui"> TEST </div> -->
+    <button style="color: #fff; background-color: #00f; margin: 20px; top: 0" id="button" class="ui">HOME</button>
+
+</body>
+</html>
